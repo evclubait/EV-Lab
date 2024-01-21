@@ -15,10 +15,10 @@
 
     <nav class="width0">
       <div onclick="toggle()" class="cros"><i style="color: black;" class="toggle1 fa-solid fa-bars  "></i></div>
-      <ul >
+      <ul>
         <li class="nav-link"><a style="color: black; font-size: 1.5em;" href="#">Home</a></li>
-        <li class="nav-link"><a style="color: black; font-size: 1.5em;" href="#ABOUT">About</a></li>
-        <li class="nav-link"><a style="color: black; font-size: 1.5em;" href="#">Our Team</a></li>
+        <li class="nav-link"><a style="color: black; font-size: 1.5em;" href="#Events">Events</a></li>
+        <li class="nav-link"><a style="color: black; font-size: 1.5em;" href="#Projects">Projects</a></li>
         <li class="nav-link"><a style="color: black; font-size: 1.5em;" href="archive.html">Archives</a></li>
 
       </ul>
@@ -45,10 +45,10 @@
     </div>
 
   </div>
- 
 
 
-  <div class="projects">
+
+  <div class="projects" id="Projects">
     <div class="projects-heading ">
       <h1>PROJECTS</h1>
     </div>
@@ -59,7 +59,7 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="background-image:url('car.png')"></div>
         <div class="swiper-slide" style="background-image:url('car2.png')"></div>
-        <div class="swiper-slide" style="background-image:url('bike1.png')" ></div>
+        <div class="swiper-slide" style="background-image:url('bike1.png')"></div>
         <!-- Add more slides as needed -->
       </div>
       <!-- Add Pagination -->
@@ -72,62 +72,66 @@
 
 
 
-    <div class="Events">
+    <div class="Events" id="Events">
       <div class="events-heading">Events</div>
 
       <div class="event-cards">
-        <div class="event-card ev-tour">
-          <div class="event-heading ">EV Tour</div>
+        <div class="event-card iiser">
+          <div class="event-heading ">IISER Science Fest</div>
           <div class="event-about">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est accusamus beatae cum cumque sit, porro aspernatur minima quasi rem rerum explicabo voluptates in repellat voluptatem voluptate quae pariatur, obcaecati modi provident deserunt magni?\
+            IISER Pune Science Expo is an annual showcase of innovative research by students and faculty, fostering
+            scientific curiosity, collaboration, and public engagement across diverse disciplines.
           </div>
         </div>
 
         <div class="event-cards">
-          <div class="event-card ev-tour">
-            <div class="event-heading ">EV Tour</div>
+          <div class="event-card iiev">
+            <div class="event-heading ">India International EV Show </div>
             <div class="event-about">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est accusamus beatae cum cumque sit, porro aspernatur minima quasi rem rerum explicabo voluptates in repellat voluptatem voluptate quae pariatur, obcaecati modi provident deserunt magni?\
+              India International EV Show ( IIEV Show ) is India's largest gathering of Electric Vehicles & Energy
+              Storage System Industry, it is coupled with the vast opportunities and potential challenges of EV
+              development in India.
             </div>
           </div>
 
           <div class="event-cards">
-            <div class="event-card ev-tour">
-              <div class="event-heading ">EV Tour</div>
+            <div class="event-card alumni">
+              <div class="event-heading ">Alumni Meet</div>
               <div class="event-about">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est accusamus beatae cum cumque sit, porro aspernatur minima quasi rem rerum explicabo voluptates in repellat voluptatem voluptate quae pariatur, obcaecati modi provident deserunt magni?\
+                Alumni meets bring graduates together for a reunion, sharing experiences and networking. It's a chance
+                to catch up, celebrate achievements, and stay connected with their alma mater.
               </div>
             </div>
-      </div>
-    </div>
+          </div>
+        </div>
 
 
 
 
 
 
-  <script src="script.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper('.swiper-container', {
-        effect: 'cube',
-        grabCursor: true,
-        cubeEffect: {
-          shadow: true,
-          slideShadows: true,
-          shadowOffset: 20,
-          shadowScale: 0.94,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
-    </script>
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper('.swiper-container', {
+            effect: 'cube',
+            grabCursor: true,
+            cubeEffect: {
+              shadow: true,
+              slideShadows: true,
+              shadowOffset: 20,
+              shadowScale: 0.94,
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+        </script>
 
 
 
@@ -137,45 +141,17 @@
 
 
 
-<footer>
-  <div class="flex">
-    <div class="footer-top">
-      <div class="photo">
-          <img id=vector src="assets/bike1.png"> 
-          <p >Electrical Vehicle Club </p>
-      </div>
-      <div class="box1"><h1>SITE MAP</h1>
-          <br>
-          <a href="#">HOME</a><br><a href="#">EVENTS</a><br><a href="#">PROJECTS</a><br><a href="#">CONTACTS</a></div>
-       
-     <div class="box1"><h1>CONTACT US</h1>
-      <br> <br>
-      <p id="add">9899r84723 <br >  ev@gmail.ocm</p>
-  </div>
-  </div>
-
-      <!-- <div class="radial-gradient"></div> -->
-      <div class="footer-line line"></div>
-      <div class="comment-and-time">  
-       
-              
-            
-              <div class="contacts">
-                  <i  id="in" class="social-media fa-brands fa-instagram fa-2x" style="color: #000000;"></i>
-                  <i  id="fa"class="social-media fa-brands fa-facebook-f fa-2x" style="color: #000000;"></i>
-                  <i  id=" li"class="social-media fa-brands fa-linkedin-in fa-2x" style="color: #000000;"></i>
-                  <i   id="yu" class="social-media fa-brands fa-youtube fa-2x" style="color: #000000;"></i>
-              </div>
-                     
-             
-         
-
-         
-      
- </div>
-
-</footer>
-<script src="https://kit.fontawesome.com/ba3380dd9e.js" crossorigin="anonymous"></script>
+        <footer>
+        <div class="footer line"></div>
+          <div class="footer-images">
+            <a href="https://www.youtube.com/@EVCLUBAIT"><i id="yu" class="social-media fa-brands fa-youtube fa-2x"
+                style="color: #000000;"></i></a>
+                <a href="https://www.instagram.com/ait_evclub/"><i id="in" class="social-media fa-brands fa-instagram fa-2x" style="color: #000000;"></i></a>
+           <a href=""> <i id=" li" class="social-media fa-brands fa-linkedin-in fa-2x" style="color: #000000;"></i></a>
+          </div>
+           <br>
+      </footer>
+      <script src="https://kit.fontawesome.com/ba3380dd9e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -455,11 +455,28 @@ margin: auto 10px;
   margin: 50px auto;
 
 }
-.ev-tour{
-  background-image: url(assets/mg-ev-tour-at-trinity-leeds-e1697208534381.jpg);
+
+.iiser{
+  background-image: url(event_photos/iiser.jpg);
   background-size:cover;
-  background-color: #023c5d4f;
-  mix-blend-mode:hard-light;
+  /* background-color: #023c5d4f; */
+  /* mix-blend-mode:hard-light; */
+  background-repeat: no-repeat;
+
+}
+.iiev{
+  background-image: url(event_photos/iiev.jpg);
+  background-size:cover;
+  /* background-color: #023c5d4f; */
+  /* mix-blend-mode:hard-light; */
+  background-repeat: no-repeat;
+
+}
+.alumni{
+  background-image: url(event_photos/alumni.jpg);
+  background-size:cover;
+  /* background-color: #023c5d4f; */
+  /* mix-blend-mode:hard-light; */
   background-repeat: no-repeat;
 
 }
@@ -515,6 +532,11 @@ margin: auto 10px;
   flex-basis: 30%;
   margin: 10px 0px;
   box-shadow: 0px 0px 10px 3px rgb(67, 57, 57) ;
+}
+.footer-images{
+  display: flex;
+  justify-content: space-around;
+  
 }
 @media only screen and (min-width:50px) and (max-width:768px) {
   .cards{
