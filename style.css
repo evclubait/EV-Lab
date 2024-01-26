@@ -490,6 +490,14 @@ margin: auto 10px;
   background-repeat: no-repeat;
 
 }
+.iiev:hover {
+  
+  background-color: #ffffff4f;
+  .event-about{
+    display: flex;
+  }
+  
+}
 .alumni{
   background-image: url(event_photos/alumni.jpg);
   background-size:cover;
@@ -497,6 +505,14 @@ margin: auto 10px;
   mix-blend-mode:hard-light;
   background-repeat: no-repeat;
 
+}
+.alumni:hover {
+  
+  background-color: #ffffff4f;
+  .event-about{
+    display: flex;
+  }
+  
 }
 .event-about{
   width: 70%;
