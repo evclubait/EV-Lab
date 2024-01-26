@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:wght@800&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Rubik+Iso&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
-  font-family: "audiowide";
+  font-family: 'Space Grotesk', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   /* scrollbar-width: none; */
   overflow-x: hidden;
   margin: auto;
@@ -174,18 +174,25 @@ body {
   width: 100%;
 }
 
-.logo img {
+/* .logo img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+} */
+.logo .headline{
+  text-align: center;
+  font-size: 1.7em;
+  color: #fefefe;
+  /* font-family: monospace; */
+  text-shadow: -2px 2px 4px #023C5D,-2px 2px 4px #023C5D;
 }
 
 .tag-line {
   text-align: center;
   font-size: 1.5em;
-  color: white;
-  font-family: monospace;
-  text-shadow: -2px 2px rgb(0, 33, 134);
+  color: #ffffff;
+  /* font-family: monospace; */
+  text-shadow: -2px 2px 4px #023C5D,-2px 2px 4px #023C5D;
 }
 
 @media (max-width: 700px) {
@@ -443,6 +450,7 @@ margin: auto 10px;
 .event-heading{
   font-size: 3vw;
   padding-bottom: 2%;
+  text-shadow: -2px 2px 5px #000000, -2px 2px 5px #000000;
 }
 .event-card{
   width: 90vw;
@@ -459,24 +467,34 @@ margin: auto 10px;
 .iiser{
   background-image: url(event_photos/iiser.jpg);
   background-size:cover;
-  /* background-color: #023c5d4f; */
-  /* mix-blend-mode:hard-light; */
+  background-color: #023c5d4f;
+  mix-blend-mode:hard-light;
   background-repeat: no-repeat;
 
+
+}
+
+.iiser:hover {
+  
+  background-color: #ffffff4f;
+  .event-about{
+    display: flex;
+  }
+  
 }
 .iiev{
   background-image: url(event_photos/iiev.jpg);
   background-size:cover;
-  /* background-color: #023c5d4f; */
-  /* mix-blend-mode:hard-light; */
+  background-color: #023c5d4f;
+  mix-blend-mode:hard-light;
   background-repeat: no-repeat;
 
 }
 .alumni{
   background-image: url(event_photos/alumni.jpg);
   background-size:cover;
-  /* background-color: #023c5d4f; */
-  /* mix-blend-mode:hard-light; */
+  background-color: #023c5d4f;
+  mix-blend-mode:hard-light;
   background-repeat: no-repeat;
 
 }
@@ -484,6 +502,7 @@ margin: auto 10px;
   width: 70%;
   text-align: center;
   font-size: 2vw;
+  display: none;
 }
 .post-name{
   color: white;
